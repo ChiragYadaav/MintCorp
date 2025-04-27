@@ -12,7 +12,7 @@ const CallToAction: React.FC = () => {
         <Button
           asChild
           variant="secondary"
-          className="px-8 py-4 bg-white text-[hsl(var(--primary))] font-bold rounded-md shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 text-lg"
+          className="px-8 py-4 bg-white text-[hsl(var(--primary))] font-bold rounded-md shadow-lg hover:shadow-xl hover:text-white hover:bg-[hsl(var(--secondary))] transition-all duration-300 transform hover:-translate-y-1 text-lg"
         >
           <a href="#contact">Schedule a Consultation</a>
         </Button>

@@ -45,7 +45,7 @@ const About: React.FC = () => {
               Our <span className="text-[hsl(var(--secondary))]">Mission</span>
             </h3>
             <p className="text-gray-700 mb-8 leading-relaxed text-center md:text-left">
-              At Mintcorp Advisory, we combine industry expertise with innovative strategies to help businesses navigate complex financial landscapes. Our mission is to empower organizations to achieve sustainable growth through informed decision-making.
+              At Mintbox Advisory, we combine industry expertise with innovative strategies to help businesses navigate complex financial landscapes. Our mission is to empower organizations to achieve sustainable growth through informed decision-making.
             </p>
             
             {/* Mobile card-style layout */}

@@ -46,14 +46,12 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <header className={`fixed w-full bg-white shadow-md z-50 transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'} overflow-hidden`}>
+    <header className={`fixed w-full bg-white shadow-md z-50 transition-all duration-300 ${isScrolled ? 'py-1' : 'py-2'} overflow-hidden`}>
       <div className="container mx-auto px-6 md:px-8 max-w-7xl">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <Link href="/" className="text-xl sm:text-2xl font-bold text-gray-800 flex items-center">
-              <span className="text-[hsl(var(--primary))]">Mint</span>
-              <span className="text-[hsl(var(--secondary))]">corp</span>
-              <span className="ml-1 sm:ml-2 text-gray-800">Advisory</span>
+            <Link href="/" className="flex items-center">
+              <img src="/assets/images/logo.jpeg" alt="Mintbox Advisory Logo" className="h-10 md:h-12 object-contain rounded" />
             </Link>
           </div>
           
